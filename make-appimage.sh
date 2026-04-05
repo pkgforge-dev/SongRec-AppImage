@@ -13,6 +13,8 @@ export DESKTOP=/usr/share/applications/re.fossplant.songrec.desktop
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-4.0
 export DEPLOY_PIPEWIRE=1
+export STARTUPWMCLASS=re.fossplant.songrec # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
+export GTK_CLASS_FIX=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/songrec
