@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/re.fossplant.songrec.svg
 export DESKTOP=/usr/share/applications/re.fossplant.songrec.desktop
 export DEPLOY_GTK=1
+export GTK_DIR=gtk-4.0
 
 # Deploy dependencies
 quick-sharun /usr/bin/songrec
